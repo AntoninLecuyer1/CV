@@ -1,35 +1,72 @@
 <!DOCTYPE html>
-<html lang="fr" dir="ltr">
+<html lang="en" dir="ltr">
 
 <head>
   <meta charset="utf-8">
-  <meta name="description" content="Voilà mon premier site internet fait à par mes soin avec le cours de Jessica sur Udemy. Ne vous inquiétez pas, c'est en progrès">
-  <title>Mon site - Antonin Lecuyer</title>
+  <title>Antonin's Web Site</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" href="pics/favicon.ico">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
 </head>
 
 <body>
-  <img src="Antonin.png" alt="Photo de Antonin Lecuyer" width="200" height="200">
-  <h1>Antonin Lecuyer</h1>
-  <p><em>En cours d'apprentissage pour devenir dévellopeur web</em></p>
-  <p>Je suis issue d'une formation d'ingénieur dans le domaine de l'embarqué. Après un stage qui ne me plait pas car je me rends compte que l'embarqués ne me convient pas,
-    je me tourne vers le dévellopement web qui est plus concret à mets yeux. Après avoir suivit le cours sur le HTML/CSS de <a href="https://openclassrooms.com/" target="_blank">OpenClassroom</a>,
-    je décide de m'acheter le cours "The Complete 2020 Web Development Bootcamp" sur <a href="https://www.udemy.com/" target="_blank">Udemy</a> avec comme idée de me former par mes propres moyens au dévellopement web.</p>
-  <hr>
-  <h3>Formation</h3>
-  <ul>
-    <li>ESIGELEC</li>
-    <li>UQAC</li>
-    <li>MIT</li>
-  </ul>
-  <hr>
-  <h3>Mes hobbies</h3>
-  <ol>
-    <li>La cuisine</li>
-    <li>L'Histoire</li>
-    <li>Les jeux-vidéo de gestion & stragie / 4X</li>
-  </ol>
-  <hr>
-  <h3><a href="contact.html">Contactez moi!</a></h3>
+  <div class="header">
+    <img class="top-cloud" src="pics/cloud.png" alt="cloud-img">
+    <h1>Je suis Antonin</h1>
+    <h2>Un dévellopeur web</h2>
+    <img class="bottom-cloud" src="pics/cloud.png" alt="cloud-img">
+    <img src="pics/mountain.png" alt="mountain-img">
+  </div>
+
+  <div class="middle-container">
+    <div class="profile">
+      <img src="pics/Antonin.png" alt="Picture of Antonin, who's me!! :)">
+      <h2>Bonjour!</h2>
+      <p>Je suis un programmeur web en apprentissage, je sors d'une formation d'ingénieur généraliste dans l'embarqué.</p>
+    </div>
+    <hr>
+    <div class="skills">
+      <h2>My Skills.</h2>
+      <div class="skill-row">
+        <img class="img_programming" src="pics/programming.png" alt="Icon of a computer">
+        <h3>Programation</h3>
+        <p>Je suis issue d'une formation d'ingénieur généraliste, j'ai décider de m'orienter vers le dévellopement web
+          car je suis une personne qui aime créer de nouveaux designs.</p>
+      </div>
+      <div class="skill-row">
+        <img class="img_crown" src="pics/crown.png" alt="Icon of a crown">
+        <h3>L'Histoire</h3>
+        <p>L'Histoire est ma passion. Posez moi une question sur une periode et je vous raconterais une anecdote historique en liens.
+          J'aime tout particulièrement l'histoire française et européenne (l'une ne va pas sans l'autre et inversement) sur toute la
+          periode du Moyen-age ainsi que l'ère coloniale jusqu'à Napoléon. J'aime aussi beaucoup l'hisotire de la Rome antique qui a façnné notre continent.</p>
+      </div>
+      <div class="skill-row">
+        <img class="img_soup" src="pics/soup.png" alt="Icon of a soup">
+        <h3>La cuisine</h3>
+        <p>"Bien manger, c'est le début du bonheur", ce dicton n'a jamais été aussi vrai que dans mon cas. J'adore manger,
+          bien manger et il n'y a rien de meilleur que de cuisiner un bon plat. La cuisine, c'est aussi offrir
+          et partager des bons moments avec sa famille et ses amis. Rien de tel qu'une bonne bouffe pour réunir tout le monde. Je vis pour manger,
+          et manger me fait vivre, alors comme dit notre bon vieux Karadoc: "Le gras, c'est la vie!!" </p>
+      </div>
+      <img src="https://media.giphy.com/media/kZu9VesA0ENn4lOft3/giphy.gif" alt="Crazy cook gif">
+    </div>
+    <hr>
+    <div class="contact-me">
+      <h2>Contactez moi!</h2>
+      <h3>Vous voulez partagez une idée, une anecdote ou tout autre chose qui vous passe par la tête?</h3>
+      <p>N'hésitez pas à me contacter!!</p>
+      <a class="btn" href="antonin.lecuyer.pro@gmail.com">CONTACTEZ MOI</a>
+    </div>
+  </div>
+
+
+  <div class="bottom-container">
+    <a class="footer-link" href="https://www.linkedin.com/in/antonin-lecuyer-14a779181/">LinkedIn</a>
+    <a class="footer-link" href="https://twitter.com/">Twitter</a>
+    <a class="footer-link" href="https://www.appbrewery.co/">Website</a>
+    <p>© 2018 Lecuyer Antonin.</p>
+  </div>
 </body>
 
 </html>
